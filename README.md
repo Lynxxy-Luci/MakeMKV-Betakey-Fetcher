@@ -3,6 +3,7 @@ Small bash script to continuously fetch and install the current MakeMKV Beta Key
 For continuous execution, add it to your crontab, e.g.
 
 ```bash
+EDITOR=nano crontab -e
 #crontab
 @weekly ~/.scripts/makemkv_keyfetch.sh
 ```
