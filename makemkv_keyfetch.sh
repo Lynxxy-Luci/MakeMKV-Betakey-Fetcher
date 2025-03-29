@@ -17,4 +17,3 @@ if [ -n "${betakey}" ]; then
 else
         echo "Could not find BETAKEY."
 fi
-
